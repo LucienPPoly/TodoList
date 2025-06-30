@@ -1,0 +1,14 @@
+.btn-add {
+  font-family: Raleway;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 3rem;
+  width: auto;
+  color: (var(--light-color));
+}
+
+@media (prefers-color-scheme: light) {
+  .btn-add {
+    color: var(--black-color);
+  }
+}
