@@ -13,3 +13,14 @@ ul {
 ul.todo {
   margin-top: 50px;
 }
+
+.show-done {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+  text-align: left;
+  border: none;
+  padding-left: 25px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+}

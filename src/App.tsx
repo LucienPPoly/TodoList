@@ -41,7 +41,8 @@ function App() {
       <InputField
         placeholder="TODO"
         onSumbit={() => {
-          if (nameRef.current) {
+          if (nameRef.current && nameRef.current.value) {
+            //if not null
             addNewTask(nameRef.current.value);
             nameRef.current.value = "";
           }
